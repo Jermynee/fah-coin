@@ -1,0 +1,13 @@
+{
+  "name": "F&H Coin",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "action": {
+    "title": "Coin Flip",
+    "icon": "/icon.svg",
+    "popover": {
+      "width": 350,
+      "height": 300
+    }
+  }
+}

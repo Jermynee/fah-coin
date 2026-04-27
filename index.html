@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { margin: 0; padding: 10px; background: rgba(0,0,0,0.8); color: #ccc; font-family: sans-serif; text-align: center; overflow: hidden; }
+        #video-container { width: 100%; height: 200px; margin-bottom: 10px; background: #000; display: flex; align-items: center; justify-content: center; }
+        video { max-width: 100%; max-height: 100%; }
+        .controls { display: flex; flex-direction: column; gap: 8px; }
+        button { background: #222; border: 1px solid #444; color: #eee; padding: 8px; cursor: pointer; font-size: 14px; }
+        button:hover { background: #333; border-color: #666; }
+    </style>
+  <script type="module" crossorigin src="./assets/index-BHjx5pU8.js"></script>
+</head>
+<body>
+    <div id="video-container">
+        <video id="coin-player" playsinline></video>
+    </div>
+    <div class="controls">
+        <button id="btn-normal">Обычная монетка</button>
+        <button id="btn-lucky">Удачная (2 монетки)</button>
+    </div>
+</body>
+</html>
